@@ -1,0 +1,21 @@
+name: contextmenu
+description: Display a beautifully animated, material context menu using pure Flutter
+version: 3.0.0
+homepage: https://theonewiththebraid.gitlab.io/contextmenu/#/
+repository: https://gitlab.com/TheOneWithTheBraid/contextmenu.git
+issue_tracker: https://gitlab.com/TheOneWithTheBraid/contextmenu/issues
+
+environment:
+  sdk: '>=2.15.0 <3.0.0'
+  flutter: ">=1.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  animations: ^2.0.2
+  after_layout: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
